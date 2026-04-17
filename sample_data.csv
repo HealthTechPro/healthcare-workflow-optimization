@@ -1,0 +1,9 @@
+patient_id,patient_status,discharge_summary_status,hours_since_discharge,expected_tat
+001,admitted,missing,0,24
+002,discharged,unsigned,12,24
+003,discharged,missing,30,24
+004,discharged,complete,10,24
+005,discharged,missing,50,48
+006,admitted,missing,0,24
+007,discharged,unsigned,20,24
+008,discharged,complete,5,24
