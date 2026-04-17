@@ -17,10 +17,18 @@ def route_case(case):
         return "REVIEW"
 
 
-# Read data from CSV
-with open("sample_data.csv", mode="r") as file:
-    reader = csv.DictReader(file)
+# Read input and write output
+with open("sample_data.csv", mode="r") as infile, open("routing_results.csv", mode="w", newline="") as outfile:
+    reader = csv.DictReader(infile)
+
+    fieldnames = reader.fieldnames + ["routing_decision"]
+    writer = csv.DictWriter(outfile, fieldnames=fieldnames)
+
+    writer.writeheader()
 
     for case in reader:
-        result = route_case(case)
-        print(f'Patient {case["patient_id"]}: {result}')
+        decision = route_case(case)
+        case["routing_decision"] = decision
+        writer.writerow(case)
+
+        print(f'Patient {case["patient_id"]}: {decision}')
