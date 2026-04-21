@@ -43,6 +43,13 @@ The goal of this project is to model a rules-based routing system that can:
 
 ---
 
+## Key Results
+
+- Reviewed 100+ cases  
+- Reduced backlog by 80%  
+- Identified documentation delays impacting ~66% of cases  
+- Determined missing discharge summaries as the primary delay driver  
+
 ## Phase 1: Discharge Summary Routing Logic
 
 ### Focus
@@ -227,6 +234,17 @@ This repository is meant to demonstrate:
 5. Expand phase by phase over time
 
 ---
+
+## Project Structure
+
+- reports/work_queue_operational_analysis.md  
+  Core analysis of workflow performance, backlog reduction, and documentation delays  
+
+- reports/workflow_frameworks.md  
+  Reusable workflow systems, tracking structures, and operational frameworks  
+
+- reports/ai_workflow_opportunities.md  
+  Future-state AI and automation concepts for healthcare operations  
 
 ## Long-Term Vision
 
