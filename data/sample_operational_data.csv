@@ -1,0 +1,6 @@
+queue_name,cases_reviewed,delay_reason,status
+Primary Work Queue,30,Missing discharge summary,Reduced
+Secondary Work Queue,75,Incomplete documentation,Triaged
+Primary Work Queue,9,Missing discharge summary,Reviewed
+Secondary Work Queue,26,Pending chart merge,Reviewed
+Primary Work Queue,12,Active admission,Pending
