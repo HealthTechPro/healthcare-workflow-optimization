@@ -1,12 +1,13 @@
 # Healthcare Workflow Optimization: Referral & Documentation Routing System
 
 ## Overview
-
 This project is a phased healthcare operations and workflow optimization portfolio project based on real-world problems observed in inpatient and utilization review workflows. It focuses on how delays in discharge summaries, clinical documentation, payer communication, and fragmented workflows create unnecessary operator burden, delayed insurance submissions, and inaccurate performance metrics.
 
 The purpose of this project is to translate healthcare operational pain points into structured workflow logic that can be modeled using Python, SQL, and process improvement methods over time.
 
-This repository is intentionally being built in phases so the core logic is clear, usable, and expandable.
+In addition to workflow design, this project is being expanded to include an AI evaluation and workflow intelligence layer inspired by real-world healthcare AI validation tools (e.g., Epic Seismometer). This layer focuses on measuring system performance, workflow efficiency, and outcome impact—ensuring that workflows are not only executed correctly, but also evaluated for effectiveness over time.
+
+This repository is intentionally being built in phases so the core logic is clear, usable, expandable, and measurable.
 
 ---
 
@@ -42,6 +43,23 @@ The goal of this project is to model a rules-based routing system that can:
 * provide a foundation for future workflow automation and analytics
 
 ---
+
+## 🤖 AI Evaluation & Workflow Intelligence Layer
+
+This project introduces an evaluation layer to measure how workflow decisions impact operational performance and outcomes.
+
+### Focus Areas
+- tracking workflow delays and turnaround time (TAT)
+- measuring documentation readiness and completion rates
+- evaluating prior authorization success rates
+- identifying repeat workflow inefficiencies
+- monitoring backlog trends and reduction over time
+
+### Why this matters
+Traditional workflow systems focus on task completion. This layer ensures that workflow logic is evaluated based on real-world impact, supporting continuous improvement and data-driven decision-making.
+
+### Conceptual Model
+Workflow Input → Routing Logic → Outcome → Evaluation → Optimization
 
 ## Key Results
 
